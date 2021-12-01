@@ -1,9 +1,7 @@
 #include <iostream>
-#include <string>
 
 int main()
 {
-	std::string line;
 	int prev = -1;
 	int count = 0;
 

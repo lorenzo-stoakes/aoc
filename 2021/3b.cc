@@ -71,4 +71,6 @@ int main()
 	scrubber >>= 1;
 
 	std::cout << oxygen * scrubber << std::endl;
+
+	return 0;
 }

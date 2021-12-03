@@ -31,4 +31,6 @@ int main()
 	uint64_t epsilon = ~gamma & ((1UL << counts.size()) - 1);
 
 	std::cout << gamma * epsilon << std::endl;
+
+	return 0;
 }

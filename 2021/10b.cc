@@ -74,11 +74,8 @@ int64_t score_syntax_error(const std::string& line)
 
 int main()
 {
-	std::vector<char> stack;
-
-	std::string line;
-
 	std::vector<int64_t> scores;
+	std::string line;
 	while (std::cin >> line) {
 		int64_t score = score_syntax_error(line);
 		if (score == -1)
